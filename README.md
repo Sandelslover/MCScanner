@@ -28,7 +28,7 @@ A high-performance Minecraft Java Edition server discovery agent designed to fin
 git clone https://github.com/Sandelslover/MCScanner.git
 cd MCScanner
 pip install -r requirements.txt
-npm install
+npm install mineflayer
 ```
 
 ### 2. Run Setup
@@ -39,22 +39,22 @@ python setup.py
 
 ## Usage
 
-### Discovery Mode (Scrape + Scan)
+### Discovery Mode example (Scrape + Scan)
 ```bash
-python main.py --mode discovery --range 73.0.0.0/8
+python main.py --mode discovery --range 73.0.0.0/8 
 ```
 
-### Worker Mode (Process found servers)
+### Worker Mode example (Process found servers)
 ```bash
 python main.py --mode worker --workers 5
 ```
 
-### Full Mode (Everything)
+### Full Mode example (Everything)
 ```bash
 python main.py --mode full --range 73.0.0.0/8 --workers 5
 ```
 
-### Run without Proxies
+### Run without Proxies example
 ```bash
 python main.py --mode full --range 1.2.3.0/24 --no-proxy
 ```
