@@ -1,0 +1,8 @@
+mcstatus
+beautifulsoup4
+requests
+redis
+aiohttp[speedups]
+colorama
+pydantic
+python-dotenv

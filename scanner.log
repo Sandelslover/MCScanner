@@ -1,0 +1,323 @@
+2026-02-12 20:50:08,062 | INFO | Fetching fresh proxies from API...
+2026-02-12 20:50:09,053 | ERROR | Failed to fetch proxies from API: name 'os' is not defined
+2026-02-12 20:50:09,055 | INFO | Loaded 463 proxies from file.
+2026-02-12 20:50:09,056 | INFO | Using in-memory task queue (Local Mode).
+2026-02-12 20:50:09,056 | INFO | [34m[1mMCScanner started in 'full' mode with 5 worker(s).
+2026-02-12 20:50:09,057 | INFO | [35mStarting scraper...
+2026-02-12 20:50:09,057 | INFO | Scraping topg.org...
+2026-02-12 20:50:09,058 | INFO | Proxy rotated to: http://137.59.49.133:2525
+2026-02-12 20:50:12,297 | WARNING | Request to https://topg.org/minecraft-servers/ failed with proxy http://137.59.49.133:2525: HTTPSConnectionPool(host='topg.org', port=443): Max retries exceeded with url: /minecraft-servers/ (Caused by ProxyError('Unable to connect to proxy', NewConnectionError("HTTPSConnection(host='137.59.49.133', port=2525): Failed to establish a new connection: [WinError 10061] Yhteyttä ei voi muodostaa, koska kohdekone ei salli sitä")))
+2026-02-12 20:50:12,298 | WARNING | Discarding unusable proxy: http://137.59.49.133:2525
+2026-02-12 20:50:12,301 | INFO | Proxy rotated to: http://181.78.107.139:999
+2026-02-12 20:50:27,306 | ERROR | Retry to https://topg.org/minecraft-servers/ also failed: HTTPSConnectionPool(host='topg.org', port=443): Max retries exceeded with url: /minecraft-servers/ (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<HTTPSConnection(host='181.78.107.139', port=999) at 0x29253331a60>, 'Connection to 181.78.107.139 timed out. (connect timeout=15)')))
+2026-02-12 20:50:27,307 | INFO | Source topg.org returned 0 results.
+2026-02-12 20:50:27,308 | INFO | Scraping minecraft-server-list.com...
+2026-02-12 20:50:37,324 | WARNING | Request to https://minecraft-server-list.com/filter/players/1/ failed with proxy http://181.78.107.139:999: HTTPSConnectionPool(host='minecraft-server-list.com', port=443): Max retries exceeded with url: /filter/players/1/ (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<HTTPSConnection(host='181.78.107.139', port=999) at 0x292533322a0>, 'Connection to 181.78.107.139 timed out. (connect timeout=10)')))
+2026-02-12 20:50:37,325 | WARNING | Discarding unusable proxy: http://181.78.107.139:999
+2026-02-12 20:50:37,354 | INFO | Proxy rotated to: http://190.95.202.212:999
+2026-02-12 20:50:52,364 | ERROR | Retry to https://minecraft-server-list.com/filter/players/1/ also failed: HTTPSConnectionPool(host='minecraft-server-list.com', port=443): Max retries exceeded with url: /filter/players/1/ (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<HTTPSConnection(host='190.95.202.212', port=999) at 0x292533327b0>, 'Connection to 190.95.202.212 timed out. (connect timeout=15)')))
+2026-02-12 20:50:52,365 | INFO | Source minecraft-server-list.com returned 0 results.
+2026-02-12 20:50:52,366 | INFO | Scraping minecraft-list.org...
+2026-02-12 20:51:02,384 | WARNING | Request to https://minecraft-list.org/servers/players failed with proxy http://190.95.202.212:999: HTTPSConnectionPool(host='minecraft-list.org', port=443): Max retries exceeded with url: /servers/players (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<HTTPSConnection(host='190.95.202.212', port=999) at 0x292533331a0>, 'Connection to 190.95.202.212 timed out. (connect timeout=10)')))
+2026-02-12 20:51:02,386 | WARNING | Discarding unusable proxy: http://190.95.202.212:999
+2026-02-12 20:51:02,407 | INFO | Proxy rotated to: http://1.52.198.150:16000
+2026-02-12 20:51:17,421 | ERROR | Retry to https://minecraft-list.org/servers/players also failed: HTTPSConnectionPool(host='minecraft-list.org', port=443): Max retries exceeded with url: /servers/players (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<HTTPSConnection(host='1.52.198.150', port=16000) at 0x29253333740>, 'Connection to 1.52.198.150 timed out. (connect timeout=15)')))
+2026-02-12 20:51:17,422 | INFO | Source minecraft-list.org returned 0 results.
+2026-02-12 20:51:17,423 | INFO | Scraping complete. Total unique servers found: 0
+2026-02-12 20:51:17,424 | INFO | Starting masscan on 73.128.0.0/12...
+2026-02-12 20:52:54,584 | INFO | Enqueued 13 tasks.
+2026-02-12 20:57:53,980 | INFO | Fetching fresh proxies from API...
+2026-02-12 20:57:54,637 | ERROR | Failed to fetch proxies from API: name 'os' is not defined
+2026-02-12 20:57:54,647 | INFO | Loaded 460 proxies from file.
+2026-02-12 20:57:54,648 | INFO | Using in-memory task queue (Local Mode).
+2026-02-12 20:57:54,649 | INFO | [34m[1mMCScanner started in 'full' mode with 5 worker(s).
+2026-02-12 20:57:54,649 | INFO | [35mStarting scraper...
+2026-02-12 20:57:54,650 | INFO | Scraping topg.org...
+2026-02-12 20:57:54,650 | INFO | Proxy rotated to: http://14.170.154.193:19132
+2026-02-12 20:58:04,667 | WARNING | Request to https://topg.org/minecraft-servers/ failed with proxy http://14.170.154.193:19132: HTTPSConnectionPool(host='topg.org', port=443): Max retries exceeded with url: /minecraft-servers/ (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<HTTPSConnection(host='14.170.154.193', port=19132) at 0x1ee4d46b0e0>, 'Connection to 14.170.154.193 timed out. (connect timeout=10)')))
+2026-02-12 20:58:04,668 | WARNING | Discarding unusable proxy: http://14.170.154.193:19132
+2026-02-12 20:58:04,672 | INFO | Proxy rotated to: http://45.233.90.10:443
+2026-02-12 20:58:19,688 | ERROR | Retry to https://topg.org/minecraft-servers/ also failed: HTTPSConnectionPool(host='topg.org', port=443): Max retries exceeded with url: /minecraft-servers/ (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<HTTPSConnection(host='45.233.90.10', port=443) at 0x1ee4d46b560>, 'Connection to 45.233.90.10 timed out. (connect timeout=15)')))
+2026-02-12 20:58:19,689 | INFO | Source topg.org returned 0 results.
+2026-02-12 20:58:19,690 | INFO | Scraping minecraft-server-list.com...
+2026-02-12 20:58:29,706 | WARNING | Request to https://minecraft-server-list.com/filter/players/1/ failed with proxy http://45.233.90.10:443: HTTPSConnectionPool(host='minecraft-server-list.com', port=443): Max retries exceeded with url: /filter/players/1/ (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<HTTPSConnection(host='45.233.90.10', port=443) at 0x1ee4d46bdd0>, 'Connection to 45.233.90.10 timed out. (connect timeout=10)')))
+2026-02-12 20:58:29,707 | WARNING | Discarding unusable proxy: http://45.233.90.10:443
+2026-02-12 20:58:29,720 | INFO | Proxy rotated to: http://45.151.182.9:3128
+2026-02-12 20:58:38,005 | INFO | Source minecraft-server-list.com returned 0 results.
+2026-02-12 20:58:38,005 | INFO | Scraping minecraft-list.org...
+2026-02-12 20:58:45,839 | WARNING | Request to https://minecraft-list.org/servers/players failed with proxy http://45.151.182.9:3128: HTTPSConnectionPool(host='minecraft-list.org', port=443): Max retries exceeded with url: /servers/players (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)')))
+2026-02-12 20:58:45,839 | WARNING | Discarding unusable proxy: http://45.151.182.9:3128
+2026-02-12 20:58:45,855 | INFO | Proxy rotated to: http://43.224.118.206:8989
+2026-02-12 20:58:49,113 | ERROR | Retry to https://minecraft-list.org/servers/players also failed: HTTPSConnectionPool(host='minecraft-list.org', port=443): Max retries exceeded with url: /servers/players (Caused by ProxyError('Unable to connect to proxy', NewConnectionError("HTTPSConnection(host='43.224.118.206', port=8989): Failed to establish a new connection: [WinError 10061] Yhteyttä ei voi muodostaa, koska kohdekone ei salli sitä")))
+2026-02-12 20:58:49,114 | INFO | Source minecraft-list.org returned 0 results.
+2026-02-12 20:58:49,115 | INFO | Scraping complete. Total unique servers found: 0
+2026-02-12 20:58:49,116 | INFO | Starting masscan on 73.128.0.0/12...
+2026-02-12 21:05:52,576 | INFO | Enqueued 78 tasks.
+2026-02-12 21:07:09,545 | INFO | Fetching fresh proxies from API...
+2026-02-12 21:07:10,135 | ERROR | Failed to fetch proxies from API: name 'os' is not defined
+2026-02-12 21:07:10,139 | INFO | Loaded 457 proxies from file.
+2026-02-12 21:07:10,139 | INFO | Using in-memory task queue (Local Mode).
+2026-02-12 21:07:10,140 | INFO | [34m[1mMCScanner started in 'full' mode with 5 worker(s).
+2026-02-12 21:07:10,141 | INFO | [35mStarting scraper...
+2026-02-12 21:07:10,141 | INFO | Scraping topg.org...
+2026-02-12 21:07:10,142 | INFO | Proxy rotated to: http://196.70.91.2:3128
+2026-02-12 21:07:20,159 | WARNING | Request to https://topg.org/minecraft-servers/ failed with proxy http://196.70.91.2:3128: HTTPSConnectionPool(host='topg.org', port=443): Max retries exceeded with url: /minecraft-servers/ (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<HTTPSConnection(host='196.70.91.2', port=3128) at 0x15c71527260>, 'Connection to 196.70.91.2 timed out. (connect timeout=10)')))
+2026-02-12 21:07:20,160 | WARNING | Discarding unusable proxy: http://196.70.91.2:3128
+2026-02-12 21:07:20,163 | INFO | Proxy rotated to: http://104.129.203.245:10139
+2026-02-12 21:07:20,530 | ERROR | Retry to https://topg.org/minecraft-servers/ also failed: HTTPSConnectionPool(host='topg.org', port=443): Max retries exceeded with url: /minecraft-servers/ (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))
+2026-02-12 21:07:20,531 | INFO | Source topg.org returned 0 results.
+2026-02-12 21:07:20,531 | INFO | Scraping minecraft-server-list.com...
+2026-02-12 21:07:20,914 | WARNING | Request to https://minecraft-server-list.com/filter/players/1/ failed with proxy http://104.129.203.245:10139: HTTPSConnectionPool(host='minecraft-server-list.com', port=443): Max retries exceeded with url: /filter/players/1/ (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))
+2026-02-12 21:07:20,915 | WARNING | Discarding unusable proxy: http://104.129.203.245:10139
+2026-02-12 21:07:20,930 | INFO | Proxy rotated to: http://173.245.49.42:80
+2026-02-12 21:07:20,983 | ERROR | Retry to https://minecraft-server-list.com/filter/players/1/ also failed: HTTPSConnectionPool(host='minecraft-server-list.com', port=443): Max retries exceeded with url: /filter/players/1/ (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 400 Bad Request')))
+2026-02-12 21:07:20,984 | INFO | Source minecraft-server-list.com returned 0 results.
+2026-02-12 21:07:20,985 | INFO | Scraping minecraft-list.org...
+2026-02-12 21:07:21,045 | WARNING | Request to https://minecraft-list.org/servers/players failed with proxy http://173.245.49.42:80: HTTPSConnectionPool(host='minecraft-list.org', port=443): Max retries exceeded with url: /servers/players (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 400 Bad Request')))
+2026-02-12 21:07:21,046 | WARNING | Discarding unusable proxy: http://173.245.49.42:80
+2026-02-12 21:07:21,069 | INFO | Proxy rotated to: http://8.209.255.13:3128
+2026-02-12 21:07:22,478 | ERROR | Retry to https://minecraft-list.org/servers/players also failed: HTTPSConnectionPool(host='minecraft-list.org', port=443): Max retries exceeded with url: /servers/players (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1010)')))
+2026-02-12 21:07:22,479 | INFO | Source minecraft-list.org returned 0 results.
+2026-02-12 21:07:22,479 | INFO | Scraping complete. Total unique servers found: 0
+2026-02-12 21:07:22,480 | INFO | Starting masscan on 73.128.0.0/12...
+2026-02-12 21:09:33,816 | INFO | Enqueued 22 tasks.
+2026-02-12 21:12:52,948 | INFO | Using in-memory task queue (Local Mode).
+2026-02-12 21:12:52,949 | INFO | [34m[1mMCScanner started in 'discovery' mode with 1 worker(s).
+2026-02-12 21:12:52,949 | INFO | [35mStarting scraper...
+2026-02-12 21:12:52,949 | INFO | Scraping topg.org...
+2026-02-12 21:12:53,587 | INFO | Source topg.org returned 0 results.
+2026-02-12 21:12:53,588 | INFO | Scraping minecraft-server-list.com...
+2026-02-12 21:12:53,998 | WARNING | Request to https://minecraft-server-list.com/filter/players/1/ failed with proxy None: 403 Client Error: Forbidden for url: https://minecraft-server-list.com/filter/players/1/
+2026-02-12 21:12:54,351 | ERROR | Retry to https://minecraft-server-list.com/filter/players/1/ also failed: 403 Client Error: Forbidden for url: https://minecraft-server-list.com/filter/players/1/
+2026-02-12 21:12:54,355 | INFO | Source minecraft-server-list.com returned 0 results.
+2026-02-12 21:12:54,356 | INFO | Scraping minecraft-list.org...
+2026-02-12 21:12:54,570 | WARNING | Request to https://minecraft-list.org/servers/players failed with proxy None: HTTPSConnectionPool(host='minecraft-list.org', port=443): Max retries exceeded with url: /servers/players (Caused by NameResolutionError("HTTPSConnection(host='minecraft-list.org', port=443): Failed to resolve 'minecraft-list.org' ([Errno 11001] getaddrinfo failed)"))
+2026-02-12 21:12:54,572 | ERROR | Retry to https://minecraft-list.org/servers/players also failed: HTTPSConnectionPool(host='minecraft-list.org', port=443): Max retries exceeded with url: /servers/players (Caused by NameResolutionError("HTTPSConnection(host='minecraft-list.org', port=443): Failed to resolve 'minecraft-list.org' ([Errno 11001] getaddrinfo failed)"))
+2026-02-12 21:12:54,573 | INFO | Source minecraft-list.org returned 0 results.
+2026-02-12 21:12:54,573 | INFO | Scraping complete. Total unique servers found: 0
+2026-02-12 21:12:54,573 | INFO | Starting masscan on 73.128.0.0/12...
+2026-02-12 21:15:23,648 | INFO | Enqueued 25 tasks.
+2026-02-12 21:24:13,974 | INFO | Using in-memory task queue (Local Mode).
+2026-02-12 21:24:13,974 | INFO | [34m[1mMCScanner started in 'discovery' mode with 1 worker(s).
+2026-02-12 21:24:13,975 | INFO | [35mStarting scraper...
+2026-02-12 21:24:13,975 | INFO | Scraping topg.org...
+2026-02-12 21:24:14,556 | INFO | Source topg.org returned 0 results.
+2026-02-12 21:24:14,558 | INFO | Scraping minecraft-server-list.com...
+2026-02-12 21:24:14,934 | WARNING | Request to https://minecraft-server-list.com/filter/players/1/ failed with proxy None: 403 Client Error: Forbidden for url: https://minecraft-server-list.com/filter/players/1/
+2026-02-12 21:24:15,270 | ERROR | Retry to https://minecraft-server-list.com/filter/players/1/ also failed: 403 Client Error: Forbidden for url: https://minecraft-server-list.com/filter/players/1/
+2026-02-12 21:24:15,272 | INFO | Source minecraft-server-list.com returned 0 results.
+2026-02-12 21:24:15,273 | INFO | Scraping minecraft-list.org...
+2026-02-12 21:24:15,425 | WARNING | Request to https://minecraft-list.org/servers/players failed with proxy None: HTTPSConnectionPool(host='minecraft-list.org', port=443): Max retries exceeded with url: /servers/players (Caused by NameResolutionError("HTTPSConnection(host='minecraft-list.org', port=443): Failed to resolve 'minecraft-list.org' ([Errno 11001] getaddrinfo failed)"))
+2026-02-12 21:24:15,427 | ERROR | Retry to https://minecraft-list.org/servers/players also failed: HTTPSConnectionPool(host='minecraft-list.org', port=443): Max retries exceeded with url: /servers/players (Caused by NameResolutionError("HTTPSConnection(host='minecraft-list.org', port=443): Failed to resolve 'minecraft-list.org' ([Errno 11001] getaddrinfo failed)"))
+2026-02-12 21:24:15,428 | INFO | Source minecraft-list.org returned 0 results.
+2026-02-12 21:24:15,428 | INFO | Scraping complete. Total unique servers found: 0
+2026-02-12 21:24:15,428 | INFO | Starting masscan on 73.128.0.0/12...
+2026-02-12 21:27:52,783 | INFO | Enqueued 34 tasks.
+2026-02-12 21:29:49,062 | INFO | Using in-memory task queue (Local Mode).
+2026-02-12 21:29:49,062 | INFO | [34m[1mMCScanner started in 'discovery' mode with 1 worker(s).
+2026-02-12 21:29:49,063 | INFO | [35mStarting scraper...
+2026-02-12 21:29:49,064 | INFO | Scraping topg.org...
+2026-02-12 21:29:49,597 | INFO | Source topg.org returned 0 results.
+2026-02-12 21:29:49,598 | INFO | Scraping minecraft-server-list.com...
+2026-02-12 21:29:49,964 | WARNING | Request to https://minecraft-server-list.com/filter/players/1/ failed with proxy None: 403 Client Error: Forbidden for url: https://minecraft-server-list.com/filter/players/1/
+2026-02-12 21:29:50,286 | ERROR | Retry to https://minecraft-server-list.com/filter/players/1/ also failed: 403 Client Error: Forbidden for url: https://minecraft-server-list.com/filter/players/1/
+2026-02-12 21:29:50,290 | INFO | Source minecraft-server-list.com returned 0 results.
+2026-02-12 21:29:50,291 | INFO | Scraping minecraft-list.org...
+2026-02-12 21:29:50,443 | WARNING | Request to https://minecraft-list.org/servers/players failed with proxy None: HTTPSConnectionPool(host='minecraft-list.org', port=443): Max retries exceeded with url: /servers/players (Caused by NameResolutionError("HTTPSConnection(host='minecraft-list.org', port=443): Failed to resolve 'minecraft-list.org' ([Errno 11001] getaddrinfo failed)"))
+2026-02-12 21:29:50,447 | ERROR | Retry to https://minecraft-list.org/servers/players also failed: HTTPSConnectionPool(host='minecraft-list.org', port=443): Max retries exceeded with url: /servers/players (Caused by NameResolutionError("HTTPSConnection(host='minecraft-list.org', port=443): Failed to resolve 'minecraft-list.org' ([Errno 11001] getaddrinfo failed)"))
+2026-02-12 21:29:50,448 | INFO | Source minecraft-list.org returned 0 results.
+2026-02-12 21:29:50,448 | INFO | Scraping complete. Total unique servers found: 0
+2026-02-12 21:29:50,448 | INFO | Starting masscan on 73.128.0.0/12...
+2026-02-12 21:29:50,449 | INFO | Starting masscan on 73.128.0.0/12...
+2026-02-13 13:50:05,820 | INFO | Fetching fresh proxies from API...
+2026-02-13 13:50:06,456 | ERROR | Failed to fetch proxies from API: name 'os' is not defined
+2026-02-13 13:50:06,475 | INFO | Loaded 454 proxies from file.
+2026-02-13 13:50:06,475 | INFO | Using in-memory task queue (Local Mode).
+2026-02-13 13:50:06,475 | INFO | [34m[1mMCScanner started in 'discovery' mode with 1 worker(s).
+2026-02-13 13:50:06,475 | INFO | [35mStarting scraper...
+2026-02-13 13:50:06,476 | INFO | Scraping topg.org...
+2026-02-13 13:50:06,476 | INFO | Proxy rotated to: http://173.245.49.160:80
+2026-02-13 13:50:06,517 | WARNING | Request to https://topg.org/minecraft-servers/ failed with proxy http://173.245.49.160:80: HTTPSConnectionPool(host='topg.org', port=443): Max retries exceeded with url: /minecraft-servers/ (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 400 Bad Request')))
+2026-02-13 13:50:06,517 | WARNING | Discarding unusable proxy: http://173.245.49.160:80
+2026-02-13 13:50:06,520 | INFO | Proxy rotated to: http://194.48.198.135:7070
+2026-02-13 13:50:21,529 | ERROR | Retry to https://topg.org/minecraft-servers/ also failed: HTTPSConnectionPool(host='topg.org', port=443): Max retries exceeded with url: /minecraft-servers/ (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<HTTPSConnection(host='194.48.198.135', port=7070) at 0x20ddb7c6c90>, 'Connection to 194.48.198.135 timed out. (connect timeout=15)')))
+2026-02-13 13:50:21,529 | INFO | Source topg.org returned 0 results.
+2026-02-13 13:50:21,530 | INFO | Scraping minecraft-server-list.com...
+2026-02-13 13:50:31,539 | WARNING | Request to https://minecraft-server-list.com/filter/players/1/ failed with proxy http://194.48.198.135:7070: HTTPSConnectionPool(host='minecraft-server-list.com', port=443): Max retries exceeded with url: /filter/players/1/ (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<HTTPSConnection(host='194.48.198.135', port=7070) at 0x20ddb804500>, 'Connection to 194.48.198.135 timed out. (connect timeout=10)')))
+2026-02-13 13:50:31,540 | WARNING | Discarding unusable proxy: http://194.48.198.135:7070
+2026-02-13 13:50:31,566 | INFO | Proxy rotated to: http://205.209.118.30:3138
+2026-02-13 13:50:46,760 | ERROR | Retry to https://minecraft-server-list.com/filter/players/1/ also failed: HTTPSConnectionPool(host='minecraft-server-list.com', port=443): Read timed out. (read timeout=15)
+2026-02-13 13:50:46,761 | INFO | Source minecraft-server-list.com returned 0 results.
+2026-02-13 13:50:46,762 | INFO | Scraping minecraft-list.org...
+2026-02-13 13:50:50,685 | WARNING | Request to https://minecraft-list.org/servers/players failed with proxy http://205.209.118.30:3138: HTTPSConnectionPool(host='minecraft-list.org', port=443): Max retries exceeded with url: /servers/players (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 500 Internal Server Error')))
+2026-02-13 13:50:50,686 | WARNING | Discarding unusable proxy: http://205.209.118.30:3138
+2026-02-13 13:50:50,719 | INFO | Proxy rotated to: http://173.245.49.10:80
+2026-02-13 13:50:50,768 | ERROR | Retry to https://minecraft-list.org/servers/players also failed: HTTPSConnectionPool(host='minecraft-list.org', port=443): Max retries exceeded with url: /servers/players (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 400 Bad Request')))
+2026-02-13 13:50:50,770 | INFO | Source minecraft-list.org returned 0 results.
+2026-02-13 13:50:50,770 | INFO | Scraping complete. Total unique servers found: 0
+2026-02-13 13:50:50,771 | INFO | Starting masscan on 76.64.0.0/12...
+2026-02-13 13:50:50,772 | INFO | Starting masscan on 76.64.0.0/12...
+2026-02-13 14:00:49,126 | INFO | Fetching fresh proxies from API...
+2026-02-13 14:00:49,825 | INFO | API fetch complete. Total proxies in proxies.txt: 573
+2026-02-13 14:00:49,849 | INFO | Loaded 573 proxies from file.
+2026-02-13 14:00:49,850 | INFO | Using in-memory task queue (Local Mode).
+2026-02-13 14:00:49,850 | INFO | [34m[1mMCScanner started in 'discovery' mode with 1 worker(s).
+2026-02-13 14:00:49,859 | INFO | [35mStarting scraper...
+2026-02-13 14:00:49,859 | INFO | Scraping topg.org...
+2026-02-13 14:00:49,860 | INFO | Proxy rotated to: http://173.245.49.50:80
+2026-02-13 14:00:49,900 | WARNING | Request to https://topg.org/minecraft-servers/ failed with proxy http://173.245.49.50:80: HTTPSConnectionPool(host='topg.org', port=443): Max retries exceeded with url: /minecraft-servers/ (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 400 Bad Request')))
+2026-02-13 14:00:49,900 | WARNING | Discarding unusable proxy: http://173.245.49.50:80
+2026-02-13 14:00:49,902 | INFO | Proxy rotated to: http://95.173.218.80:8082
+2026-02-13 14:00:53,144 | ERROR | Retry to https://topg.org/minecraft-servers/ also failed: HTTPSConnectionPool(host='topg.org', port=443): Max retries exceeded with url: /minecraft-servers/ (Caused by ProxyError('Unable to connect to proxy', NewConnectionError("HTTPSConnection(host='95.173.218.80', port=8082): Failed to establish a new connection: [WinError 10061] Yhteyttä ei voi muodostaa, koska kohdekone ei salli sitä")))
+2026-02-13 14:00:53,145 | INFO | Source topg.org returned 0 results.
+2026-02-13 14:00:53,145 | INFO | Scraping minecraft-server-list.com...
+2026-02-13 14:00:56,375 | WARNING | Request to https://minecraft-server-list.com/filter/players/1/ failed with proxy http://95.173.218.80:8082: HTTPSConnectionPool(host='minecraft-server-list.com', port=443): Max retries exceeded with url: /filter/players/1/ (Caused by ProxyError('Unable to connect to proxy', NewConnectionError("HTTPSConnection(host='95.173.218.80', port=8082): Failed to establish a new connection: [WinError 10061] Yhteyttä ei voi muodostaa, koska kohdekone ei salli sitä")))
+2026-02-13 14:00:56,376 | WARNING | Discarding unusable proxy: http://95.173.218.80:8082
+2026-02-13 14:00:56,396 | INFO | Proxy rotated to: http://188.213.165.38:80
+2026-02-13 14:01:11,404 | ERROR | Retry to https://minecraft-server-list.com/filter/players/1/ also failed: HTTPSConnectionPool(host='minecraft-server-list.com', port=443): Max retries exceeded with url: /filter/players/1/ (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<HTTPSConnection(host='188.213.165.38', port=80) at 0x29d44208a40>, 'Connection to 188.213.165.38 timed out. (connect timeout=15)')))
+2026-02-13 14:01:11,405 | INFO | Source minecraft-server-list.com returned 0 results.
+2026-02-13 14:01:11,405 | INFO | Scraping minecraft-list.org...
+2026-02-13 14:01:21,421 | WARNING | Request to https://minecraft-list.org/servers/players failed with proxy http://188.213.165.38:80: HTTPSConnectionPool(host='minecraft-list.org', port=443): Max retries exceeded with url: /servers/players (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<HTTPSConnection(host='188.213.165.38', port=80) at 0x29d44208f80>, 'Connection to 188.213.165.38 timed out. (connect timeout=10)')))
+2026-02-13 14:01:21,423 | WARNING | Discarding unusable proxy: http://188.213.165.38:80
+2026-02-13 14:01:21,443 | INFO | Proxy rotated to: http://102.69.172.74:8088
+2026-02-13 14:01:36,451 | ERROR | Retry to https://minecraft-list.org/servers/players also failed: HTTPSConnectionPool(host='minecraft-list.org', port=443): Max retries exceeded with url: /servers/players (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<HTTPSConnection(host='102.69.172.74', port=8088) at 0x29d441cbe90>, 'Connection to 102.69.172.74 timed out. (connect timeout=15)')))
+2026-02-13 14:01:36,453 | INFO | Source minecraft-list.org returned 0 results.
+2026-02-13 14:01:36,453 | INFO | Scraping complete. Total unique servers found: 0
+2026-02-13 14:01:36,454 | INFO | Starting masscan on 76.64.0.0/12...
+2026-02-13 14:01:36,475 | INFO | [34m[1m--- DASHBOARD ---
+2026-02-13 14:01:36,476 | INFO | Uptime: 0:00:46.624676 | Queue Size: 0 | Total Prime Targets: 0
+2026-02-13 14:01:36,477 | INFO | [34m[1m-----------------
+2026-02-13 14:02:06,492 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<MasscanWrapper._monitor_masscan.<locals>.read_stderr() done, defined at C:\C-project\MCScanner\masscan_wrapper.py:17> exception=TypeError("a bytes-like object is required, not 'str'")>
+Traceback (most recent call last):
+  File "C:\C-project\MCScanner\masscan_wrapper.py", line 27, in read_stderr
+    if "rate:" in line.lower() or "done" in line.lower():
+       ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: a bytes-like object is required, not 'str'
+2026-02-13 14:02:36,488 | INFO | [34m[1m--- DASHBOARD ---
+2026-02-13 14:02:36,489 | INFO | Uptime: 0:01:46.638195 | Queue Size: 0 | Total Prime Targets: 0
+2026-02-13 14:02:36,491 | INFO | [34m[1m-----------------
+2026-02-13 14:03:19,011 | INFO | Fetching fresh proxies from API...
+2026-02-13 14:03:19,372 | INFO | API fetch complete. Total proxies in proxies.txt: 572
+2026-02-13 14:03:19,388 | INFO | Loaded 572 proxies from file.
+2026-02-13 14:03:19,388 | INFO | Using in-memory task queue (Local Mode).
+2026-02-13 14:03:19,388 | INFO | [34m[1mMCScanner started in 'discovery' mode with 1 worker(s).
+2026-02-13 14:03:19,389 | INFO | [35mStarting scraper...
+2026-02-13 14:03:19,389 | INFO | Scraping topg.org...
+2026-02-13 14:03:19,389 | INFO | Proxy rotated to: http://196.1.97.198:80
+2026-02-13 14:03:29,528 | WARNING | Request to https://topg.org/minecraft-servers/ failed with proxy http://196.1.97.198:80: HTTPSConnectionPool(host='topg.org', port=443): Read timed out. (read timeout=10)
+2026-02-13 14:03:29,531 | WARNING | Discarding unusable proxy: http://196.1.97.198:80
+2026-02-13 14:03:29,536 | INFO | Proxy rotated to: http://45.250.215.8:8080
+2026-02-13 14:03:44,554 | ERROR | Retry to https://topg.org/minecraft-servers/ also failed: HTTPSConnectionPool(host='topg.org', port=443): Max retries exceeded with url: /minecraft-servers/ (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<HTTPSConnection(host='45.250.215.8', port=8080) at 0x21cc64377d0>, 'Connection to 45.250.215.8 timed out. (connect timeout=15)')))
+2026-02-13 14:03:44,556 | INFO | Source topg.org returned 0 results.
+2026-02-13 14:03:44,557 | INFO | Scraping minecraft-server-list.com...
+2026-02-13 14:03:54,576 | WARNING | Request to https://minecraft-server-list.com/filter/players/1/ failed with proxy http://45.250.215.8:8080: HTTPSConnectionPool(host='minecraft-server-list.com', port=443): Max retries exceeded with url: /filter/players/1/ (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<HTTPSConnection(host='45.250.215.8', port=8080) at 0x21cc6437fe0>, 'Connection to 45.250.215.8 timed out. (connect timeout=10)')))
+2026-02-13 14:03:54,578 | WARNING | Discarding unusable proxy: http://45.250.215.8:8080
+2026-02-13 14:03:54,607 | INFO | Proxy rotated to: http://52.229.30.3:80
+2026-02-13 14:03:55,131 | ERROR | Retry to https://minecraft-server-list.com/filter/players/1/ also failed: HTTPSConnectionPool(host='minecraft-server-list.com', port=443): Max retries exceeded with url: /filter/players/1/ (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 400 Bad Request')))
+2026-02-13 14:03:55,132 | INFO | Source minecraft-server-list.com returned 0 results.
+2026-02-13 14:03:55,132 | INFO | Scraping minecraft-list.org...
+2026-02-13 14:03:55,533 | WARNING | Request to https://minecraft-list.org/servers/players failed with proxy http://52.229.30.3:80: HTTPSConnectionPool(host='minecraft-list.org', port=443): Max retries exceeded with url: /servers/players (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 400 Bad Request')))
+2026-02-13 14:03:55,533 | WARNING | Discarding unusable proxy: http://52.229.30.3:80
+2026-02-13 14:03:55,561 | INFO | Proxy rotated to: http://95.173.218.76:8082
+2026-02-13 14:04:10,575 | ERROR | Retry to https://minecraft-list.org/servers/players also failed: HTTPSConnectionPool(host='minecraft-list.org', port=443): Max retries exceeded with url: /servers/players (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<HTTPSConnection(host='95.173.218.76', port=8082) at 0x21cc6437980>, 'Connection to 95.173.218.76 timed out. (connect timeout=15)')))
+2026-02-13 14:04:10,576 | INFO | Source minecraft-list.org returned 0 results.
+2026-02-13 14:04:10,577 | INFO | Scraping complete. Total unique servers found: 0
+2026-02-13 14:04:10,578 | INFO | Starting masscan on 76.64.0.0/12...
+2026-02-13 14:04:10,595 | INFO | [34m[1m--- DASHBOARD ---
+2026-02-13 14:04:10,596 | INFO | Uptime: 0:00:51.206661 | Queue Size: 0 | Total Prime Targets: 0
+2026-02-13 14:04:10,596 | INFO | [34m[1m-----------------
+2026-02-13 14:05:10,611 | INFO | [34m[1m--- DASHBOARD ---
+2026-02-13 14:05:10,612 | INFO | Uptime: 0:01:51.222122 | Queue Size: 0 | Total Prime Targets: 0
+2026-02-13 14:05:10,614 | INFO | [34m[1m-----------------
+2026-02-13 14:06:10,634 | INFO | [34m[1m--- DASHBOARD ---
+2026-02-13 14:06:10,634 | INFO | Uptime: 0:02:51.245264 | Queue Size: 0 | Total Prime Targets: 0
+2026-02-13 14:06:10,634 | INFO | [34m[1m-----------------
+2026-02-13 14:06:46,895 | INFO | Fetching fresh proxies from API...
+2026-02-13 14:06:47,606 | INFO | API fetch complete. Total proxies in proxies.txt: 707
+2026-02-13 14:06:47,619 | INFO | Loaded 707 proxies from file.
+2026-02-13 14:06:47,619 | INFO | Using in-memory task queue (Local Mode).
+2026-02-13 14:06:47,619 | INFO | [34m[1mMCScanner started in 'discovery' mode with 1 worker(s).
+2026-02-13 14:06:47,619 | INFO | [35mStarting scraper...
+2026-02-13 14:06:47,621 | INFO | Scraping topg.org...
+2026-02-13 14:06:47,621 | INFO | Proxy rotated to: http://150.249.255.91:3128
+2026-02-13 14:06:58,018 | WARNING | Request to https://topg.org/minecraft-servers/ failed with proxy http://150.249.255.91:3128: HTTPSConnectionPool(host='topg.org', port=443): Read timed out. (read timeout=10)
+2026-02-13 14:06:58,019 | WARNING | Discarding unusable proxy: http://150.249.255.91:3128
+2026-02-13 14:06:58,024 | INFO | Proxy rotated to: http://97.74.87.226:80
+2026-02-13 14:06:58,662 | ERROR | Retry to https://topg.org/minecraft-servers/ also failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-02-13 14:06:58,665 | INFO | Source topg.org returned 0 results.
+2026-02-13 14:06:58,668 | INFO | Scraping minecraft-server-list.com...
+2026-02-13 14:07:01,976 | WARNING | Request to https://minecraft-server-list.com/filter/players/1/ failed with proxy http://97.74.87.226:80: HTTPSConnectionPool(host='minecraft-server-list.com', port=443): Max retries exceeded with url: /filter/players/1/ (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 400 Bad Request')))
+2026-02-13 14:07:01,978 | WARNING | Discarding unusable proxy: http://97.74.87.226:80
+2026-02-13 14:07:02,011 | INFO | Proxy rotated to: http://181.79.94.31:999
+2026-02-13 14:07:17,033 | ERROR | Retry to https://minecraft-server-list.com/filter/players/1/ also failed: HTTPSConnectionPool(host='minecraft-server-list.com', port=443): Max retries exceeded with url: /filter/players/1/ (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<HTTPSConnection(host='181.79.94.31', port=999) at 0x1f7924a0860>, 'Connection to 181.79.94.31 timed out. (connect timeout=15)')))
+2026-02-13 14:07:17,034 | INFO | Source minecraft-server-list.com returned 0 results.
+2026-02-13 14:07:17,035 | INFO | Scraping minecraft-list.org...
+2026-02-13 14:07:27,303 | WARNING | Request to https://minecraft-list.org/servers/players failed with proxy http://181.79.94.31:999: HTTPSConnectionPool(host='minecraft-list.org', port=443): Read timed out. (read timeout=10)
+2026-02-13 14:07:27,304 | WARNING | Discarding unusable proxy: http://181.79.94.31:999
+2026-02-13 14:07:27,327 | INFO | Proxy rotated to: http://186.180.66.138:8080
+2026-02-13 14:07:42,334 | ERROR | Retry to https://minecraft-list.org/servers/players also failed: HTTPSConnectionPool(host='minecraft-list.org', port=443): Max retries exceeded with url: /servers/players (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<HTTPSConnection(host='186.180.66.138', port=8080) at 0x1f7924479b0>, 'Connection to 186.180.66.138 timed out. (connect timeout=15)')))
+2026-02-13 14:07:42,336 | INFO | Source minecraft-list.org returned 0 results.
+2026-02-13 14:07:42,337 | INFO | Scraping complete. Total unique servers found: 0
+2026-02-13 14:07:42,338 | INFO | Starting masscan on 76.64.0.0/12...
+2026-02-13 14:07:42,351 | INFO | [34m[1m--- DASHBOARD ---
+2026-02-13 14:07:42,352 | INFO | Uptime: 0:00:54.731682 | Queue Size: 0 | Total Prime Targets: 0
+2026-02-13 14:07:42,353 | INFO | [34m[1m-----------------
+2026-02-13 14:08:42,358 | INFO | [34m[1m--- DASHBOARD ---
+2026-02-13 14:08:42,360 | INFO | Uptime: 0:01:54.739327 | Queue Size: 0 | Total Prime Targets: 0
+2026-02-13 14:08:42,361 | INFO | [34m[1m-----------------
+2026-02-13 14:09:42,370 | INFO | [34m[1m--- DASHBOARD ---
+2026-02-13 14:09:42,374 | INFO | Uptime: 0:02:54.750477 | Queue Size: 0 | Total Prime Targets: 0
+2026-02-13 14:09:42,375 | INFO | [34m[1m-----------------
+2026-02-13 14:10:42,394 | INFO | [34m[1m--- DASHBOARD ---
+2026-02-13 14:10:42,395 | INFO | Uptime: 0:03:54.774461 | Queue Size: 0 | Total Prime Targets: 0
+2026-02-13 14:10:42,395 | INFO | [34m[1m-----------------
+2026-02-13 14:11:42,393 | INFO | [34m[1m--- DASHBOARD ---
+2026-02-13 14:11:42,394 | INFO | Uptime: 0:04:54.773431 | Queue Size: 0 | Total Prime Targets: 0
+2026-02-13 14:11:42,396 | INFO | [34m[1m-----------------
+2026-02-13 14:12:42,407 | INFO | [34m[1m--- DASHBOARD ---
+2026-02-13 14:12:42,408 | INFO | Uptime: 0:05:54.787945 | Queue Size: 0 | Total Prime Targets: 0
+2026-02-13 14:12:42,411 | INFO | [34m[1m-----------------
+2026-02-13 14:13:42,425 | INFO | [34m[1m--- DASHBOARD ---
+2026-02-13 14:13:42,427 | INFO | Uptime: 0:06:54.806097 | Queue Size: 0 | Total Prime Targets: 0
+2026-02-13 14:13:42,428 | INFO | [34m[1m-----------------
+2026-02-13 14:15:00,460 | INFO | Fetching fresh proxies from API...
+2026-02-13 14:15:01,171 | INFO | API fetch complete. Total proxies in proxies.txt: 814
+2026-02-13 14:15:01,188 | INFO | Loaded 814 proxies from file.
+2026-02-13 14:15:01,188 | INFO | Using in-memory task queue (Local Mode).
+2026-02-13 14:15:01,188 | INFO | [34m[1mMCScanner started in 'discovery' mode with 1 worker(s).
+2026-02-13 14:15:01,189 | INFO | [35mStarting scraper...
+2026-02-13 14:15:01,190 | INFO | Scraping topg.org...
+2026-02-13 14:15:01,191 | INFO | Proxy rotated to: http://188.163.170.130:41209
+2026-02-13 14:15:11,209 | WARNING | Request to https://topg.org/minecraft-servers/ failed with proxy http://188.163.170.130:41209: HTTPSConnectionPool(host='topg.org', port=443): Max retries exceeded with url: /minecraft-servers/ (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<HTTPSConnection(host='188.163.170.130', port=41209) at 0x26e632c7290>, 'Connection to 188.163.170.130 timed out. (connect timeout=10)')))
+2026-02-13 14:15:11,210 | WARNING | Discarding unusable proxy: http://188.163.170.130:41209
+2026-02-13 14:15:11,215 | INFO | Proxy rotated to: http://103.247.13.203:8090
+2026-02-13 14:15:23,131 | INFO | Source topg.org returned 0 results.
+2026-02-13 14:15:23,133 | INFO | Scraping minecraft-server-list.com...
+2026-02-13 14:15:35,918 | WARNING | Request to https://minecraft-server-list.com/filter/players/1/ failed with proxy http://103.247.13.203:8090: 403 Client Error: Forbidden for url: https://minecraft-server-list.com/filter/players/1/
+2026-02-13 14:15:35,919 | WARNING | Discarding unusable proxy: http://103.247.13.203:8090
+2026-02-13 14:15:35,955 | INFO | Proxy rotated to: http://207.180.254.198:8080
+2026-02-13 14:15:50,973 | ERROR | Retry to https://minecraft-server-list.com/filter/players/1/ also failed: HTTPSConnectionPool(host='minecraft-server-list.com', port=443): Max retries exceeded with url: /filter/players/1/ (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<HTTPSConnection(host='207.180.254.198', port=8080) at 0x26e633f6060>, 'Connection to 207.180.254.198 timed out. (connect timeout=15)')))
+2026-02-13 14:15:50,976 | INFO | Source minecraft-server-list.com returned 0 results.
+2026-02-13 14:15:50,977 | INFO | Scraping minecraft-list.org...
+2026-02-13 14:16:00,993 | WARNING | Request to https://minecraft-list.org/servers/players failed with proxy http://207.180.254.198:8080: HTTPSConnectionPool(host='minecraft-list.org', port=443): Max retries exceeded with url: /servers/players (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<HTTPSConnection(host='207.180.254.198', port=8080) at 0x26e633f64b0>, 'Connection to 207.180.254.198 timed out. (connect timeout=10)')))
+2026-02-13 14:16:00,993 | WARNING | Discarding unusable proxy: http://207.180.254.198:8080
+2026-02-13 14:16:01,021 | INFO | Proxy rotated to: http://192.73.244.36:80
+2026-02-13 14:16:01,397 | ERROR | Retry to https://minecraft-list.org/servers/players also failed: HTTPSConnectionPool(host='minecraft-list.org', port=443): Max retries exceeded with url: /servers/players (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 400 Bad Request')))
+2026-02-13 14:16:01,399 | INFO | Source minecraft-list.org returned 0 results.
+2026-02-13 14:16:01,400 | INFO | Scraping complete. Total unique servers found: 0
+2026-02-13 14:16:01,400 | INFO | Starting masscan on 76.64.0.0/12...
+2026-02-13 14:16:01,434 | INFO | [34m[1m--- DASHBOARD ---
+2026-02-13 14:16:01,435 | INFO | Uptime: 0:01:00.245422 | Queue Size: 0 | Total Prime Targets: 0
+2026-02-13 14:16:01,435 | INFO | [34m[1m-----------------
+2026-02-13 14:16:02,446 | INFO | [MASSCAN] rate:  0.00-kpps,  0.00% done,   0:00:00 remaining, found=0
+2026-02-13 14:16:32,452 | INFO | [MASSCAN] rate:  0.92-kpps,  2.64% done,   0:18:18 remaining, found=11
+2026-02-13 14:17:01,437 | INFO | [34m[1m--- DASHBOARD ---
+2026-02-13 14:17:01,437 | INFO | Uptime: 0:02:00.248363 | Queue Size: 0 | Total Prime Targets: 0
+2026-02-13 14:17:01,438 | INFO | [34m[1m-----------------
+2026-02-13 14:17:02,481 | INFO | [MASSCAN] rate:  1.20-kpps,  5.46% done,   0:14:44 remaining, found=19
+2026-02-13 14:17:32,498 | INFO | [MASSCAN] rate:  0.90-kpps,  8.36% done,   0:16:42 remaining, found=26
+2026-02-13 14:18:01,467 | INFO | [34m[1m--- DASHBOARD ---
+2026-02-13 14:18:01,469 | INFO | Uptime: 0:03:00.278461 | Queue Size: 0 | Total Prime Targets: 0
+2026-02-13 14:18:01,470 | INFO | [34m[1m-----------------
+2026-02-13 14:18:02,519 | INFO | [MASSCAN] rate:  1.06-kpps, 11.12% done,   0:16:55 remaining, found=32
