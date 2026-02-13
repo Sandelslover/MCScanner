@@ -25,7 +25,7 @@ A high-performance Minecraft Java Edition server discovery agent designed to fin
 
 ### 1. Clone & Install Dependencies
 ```bash
-git clone <repository-url>
+git clone https://github.com/Sandelslover/MCScanner.git
 cd MCScanner
 pip install -r requirements.txt
 npm install
@@ -68,3 +68,5 @@ python main.py --mode full --range 1.2.3.0/24 --no-proxy
 
 ## Disclaimer
 This tool is for educational and research purposes only. Ensure you have permission to scan network ranges and comply with Minecraft's EULA and local laws.
+
+Also a work in progress. Redis management has not been tested but everything else should be working atp.
